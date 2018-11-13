@@ -430,6 +430,7 @@ class Optimizer(object):
             the optimizer irrespective of the value of `fit`.
         """
         check_x_in_space(x, self.space)
+        print(f'\nPoint: {x}, Space: {self.space}\n')
         self._check_y_is_valid(x, y)
 
         # take the logarithm of the computation times
