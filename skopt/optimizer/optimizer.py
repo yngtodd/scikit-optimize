@@ -429,8 +429,8 @@ class Optimizer(object):
             only be fitted after `n_initial_points` points have been told to
             the optimizer irrespective of the value of `fit`.
         """
-        print(f'\nPoint: {x},\nSpace: {self.space}\n')
-        check_x_in_space(x, self.space)
+        #print(f'\nPoint: {x},\nSpace: {self.space}\n')
+        #check_x_in_space(x, self.space)
         self._check_y_is_valid(x, y)
 
         # take the logarithm of the computation times
